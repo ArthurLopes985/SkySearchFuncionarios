@@ -2,7 +2,7 @@
 <%@page import="Model.Funcionarios"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Lista</title>
@@ -49,7 +49,7 @@ rel='stylesheet'>
     </div>
     </form>
 
-    <h2 style="text-align: center;">Listar Funcionários</h2>
+    <h2  style="text-align:  center; color: gainsboro;">Listar Funcionários </h2>
     
     <table>
         <thead>

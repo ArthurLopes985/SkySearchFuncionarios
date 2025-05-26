@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('imagens/galaxia.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 610px;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px gainsboro;
+    background-color: rgba(255, 255, 255, 0.1); /* transparente */
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px gainsboro;
+    backdrop-filter: blur(5px);
+    
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;  
+}
+
+.container h2{
+    
+}

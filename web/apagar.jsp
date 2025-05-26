@@ -2,7 +2,7 @@
 <%@page import="DAO.FuncionariosDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <% String idstring = request.getParameter("id");
         Funcionarios f = null;
 
